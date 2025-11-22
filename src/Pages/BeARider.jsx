@@ -3,7 +3,7 @@ import riderImage from '../assets/assets/agent-pending.png';
 import { useForm } from 'react-hook-form';
 import useAuthContext from '../Hooks/UseAuthContext';
 import { useLoaderData } from 'react-router';
-import useAxiosSecure from '../Hooks/useAxiosSecur';
+import useAxiosSecure from '../Hooks/UseAxiosSecure';
 import Swal from 'sweetalert2';
 
 const BeARider = () => {
