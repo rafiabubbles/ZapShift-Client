@@ -1,9 +1,9 @@
 import React from 'react';
 import riderImage from '../assets/assets/agent-pending.png';
 import { useForm } from 'react-hook-form';
-import useAuthContext from '../Hooks/useAuthContext';
+import useAuthContext from '../Hooks/UseAuthContext';
 import { useLoaderData } from 'react-router';
-import useAxiosSecure from '../Hooks/useAxiosSecure';
+import useAxiosSecure from '../Hooks/useAxiosSecur';
 import Swal from 'sweetalert2';
 
 const BeARider = () => {
